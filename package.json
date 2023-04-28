@@ -1,0 +1,24 @@
+{
+  "name": "cypress-aws-athena",
+  "version": "1.0.0",
+  "description": "Using AthenaExpress to send queries through a Cypress Task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmedAlsaab/cypress-aws-athena.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhmedAlsaab/cypress-aws-athena/issues"
+  },
+  "homepage": "https://github.com/AhmedAlsaab/cypress-aws-athena#readme",
+  "dependencies": {
+    "cypress": "10.3.0",
+    "athena-express": "^7.1.5",
+    "aws-sdk": "^2.1255.0"
+  }
+}
